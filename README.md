@@ -6,3 +6,5 @@ Result_yellow_taxi_stats_Jan2020.csv - файл с результатами ан
 01import_data.sql - скрипт загрузки данных.
 02data_cleanup.sql - скрипт очистки данных.
 03process_data.sql - скрипт анализа данных.
+
+Step01
