@@ -1,3 +1,4 @@
+
 DROP TABLE IF EXISTS day_stats;
 CREATE TABLE day_stats (
 	trip_date DATE PRIMARY KEY,
