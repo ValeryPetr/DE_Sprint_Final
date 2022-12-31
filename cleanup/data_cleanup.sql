@@ -16,3 +16,5 @@ DELETE FROM yellow_taxi_data WHERE passenger_count < 0;
 a trip cost less than 2.5 USD (this is the minimum payment that follows from the analysis) or
 additional payments more than 7 USD (also follows from the analysis).*/
 DELETE FROM yellow_taxi_data WHERE trip_distance <= 0 OR fare_amount < 2.5 OR extra > 7;
+-- Writing the cleaned data to a file
+COPY yellow_taxi_data TO '/home/valeryp/final/yellow_taxi_data_cleaned.csv' DELIMITER ',' CSV HEADER;
